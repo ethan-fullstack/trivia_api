@@ -1,0 +1,69 @@
+# .gitignore para proyecto FastAPI (Python)
+
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environments
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Type checkers / caches
+.mypy_cache/
+.python-version
+
+# Logs / runtime files
+*.log
+logs/
+gunicorn.log
+uvicorn.log
+
+# Databases
+*.sqlite3
+*.db
+*.db-journal
+
+# Static / front-end
+staticfiles/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+*.pem
+*.key
+*.crt
