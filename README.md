@@ -1,11 +1,3 @@
-# README · Semana 4 · Día 1
-
-**Tema:** Introducción práctica a FastAPI (microframework) y comparación con Django (full framework).
-
-**Objetivo del día:** Comprender qué es un framework, diferenciar microframework vs. full framework, entender la arquitectura básica de FastAPI (ASGI/Starlette/Pydantic) y ejecutar una API local con Uvicorn. Además, explorar la **documentación automática** (Swagger UI y ReDoc).
-
----
-
 ## 📚 Tabla de contenido
 
 ### Archivos de apoyo (carpeta `guide/`)
